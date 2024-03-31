@@ -128,6 +128,7 @@ function printTotals(group, products) {
     console.log(`${group} cost: $${totalCost.toFixed(1)}`);
     console.log(`${group} count: ${totalCount}`);
      console.log(`${group} average cost per product: $${averageCost.toFixed(2)}`);
+     console.log(`${group} average cost per product: $${averageCost.toFixed(3)}`);
 }
   
 
